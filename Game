@@ -1,3 +1,4 @@
+from random import *
 while True:
     name = input("Input your name: ")
     break
@@ -33,3 +34,4 @@ while True:
         break
     else:
         print("What?")
+
