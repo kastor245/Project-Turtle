@@ -1,0 +1,20 @@
+while True:
+    a = input("Input your name: ")
+    break
+print("Hello,", a)
+while True:
+    b = input("Are you ready to begin thy adventure? Y/N ")
+    if b == "Y":
+        print("Very good!")
+        break
+    else:
+        print("What?")
+print("Your adventure begins in the Tavern, what tavern? I don't know...")
+print("Oh! The Tavern of anal!")
+print("As I was saying, you arive in the Tavern, you are talking to the Bartender.")
+while True:
+    choice = input("1. Hello! (Begin tutorial) 2. Bye! (Exit tutorial)")
+    if choice == "1":
+        print("Hello there traveler, this game is a adventured based game.")
+        print("In this game you have to fight evil monsters, manage quests, and best of all, save the Anal Universe!")
+        
