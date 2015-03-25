@@ -1,11 +1,14 @@
 while True:
-    a = input("Input your name: ")
+    name = input("Input your name: ")
     break
-print("Hello,", a)
+print("Hello,", name)
 while True:
     b = input("Are you ready to begin thy adventure? Y/N ")
     if b == "Y":
         print("Very good!")
+        break
+    elif b == "N":
+        print("Goodbye!")
         break
     else:
         print("What?")
@@ -13,12 +16,19 @@ print("Your adventure begins in the Tavern, what tavern? I don't know...")
 print("Oh! The Tavern of anal!")
 print("As I was saying, you arive in the Tavern, you are talking to the Bartender.")
 while True:
-    choice = input("1. Hello! (Begin tutorial) 2. Bye! (Exit tutorial)")
-    if choice == "1":
+    choice1 = input("1. Hello! (Begin tutorial) 2. Bye! (Exit tutorial) ")
+    if choice1 == "1":
         print("Hello there traveler, this game is a adventured based game.")
-        print("In this game you have to fight evil monsters, manage quests, and best of all, save the Anal Universe!") #Add more and shit
+        print("In this game you have to fight evil monsters, manage quests, and best of all, save the Anal Universe!")#Add more and shit
+        choice2 = input("What would you like to know more? 1. Armor 2. Stats 3. Weapons ")
+        if choice2 == "1":
+            print("How armor works is that the value of the armor for example, 5 will be counted as a percent so 5% of the incoming damage will be ignored.")
+        elif choice2 == "2":
+            print("You have the following stats: HP, MP (Only affects mages), STR, DOD (Dodge), SPD")
+        elif choice2 == "3":
+            print("")
         break
-    elif choice == "2":
+    elif choice1 == "2":
         print("Goodbye!")
         break
     else:
