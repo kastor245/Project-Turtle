@@ -16,5 +16,10 @@ while True:
     choice = input("1. Hello! (Begin tutorial) 2. Bye! (Exit tutorial)")
     if choice == "1":
         print("Hello there traveler, this game is a adventured based game.")
-        print("In this game you have to fight evil monsters, manage quests, and best of all, save the Anal Universe!")
-        
+        print("In this game you have to fight evil monsters, manage quests, and best of all, save the Anal Universe!") #Add more and shit
+        break
+    elif choice == "2":
+        print("Goodbye!")
+        break
+    else:
+        print("What?")
