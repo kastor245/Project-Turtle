@@ -1,0 +1,3 @@
+from random import *
+Dick_Wand = randint(1,4)
+print(Dick_Wand)
